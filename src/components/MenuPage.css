@@ -1,0 +1,39 @@
+.menu-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0;
+    width: 100%;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0;
+    border: 1px solid #fcfafa;
+    height: 100%;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.menu-item.filler {
+    border: none;
+    z-index: -999;
+}
+
+.menu-item p::first-letter {
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.menu-item:hover, .menu-item.active {
+    color: #71C7EC;
+    background: #fcfafa;
+}
+
+.filler:hover {
+    background: #71C7EC;
+    color: #fcfafa;
+}

@@ -1,0 +1,51 @@
+.header, .content-filler {
+    flex: 1 0;
+    width: 100%;
+    height: 100%;
+}
+
+.content, .header-filler {
+    flex: 5 0;
+    width: 100%;
+    height: 100%;
+    margin: 1px;
+}
+
+.actual {
+    z-index: 2;
+}
+
+.header {
+    font-weight: 600;
+}
+
+.actual.content p {
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.actual.content {
+    overflow-y: auto;
+}
+
+.header-filler {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-filler p::first-letter {
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.content:hover {
+    color: #fcfafa;
+    background: #71C7EC;
+    cursor: initial;
+}
+
+.full-height {
+    height: 100vh;
+}

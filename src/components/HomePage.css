@@ -1,0 +1,39 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  background: #71C7EC;
+  color: #fcfafa;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  flex-flow: column nowrap;
+}
+
+.box {
+  border: 1px solid #fcfafa;
+  cursor: pointer;
+}
+
+.logo {
+  padding: 2rem;
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.box:hover {
+  background: #fcfafa;
+  color: #71C7EC;
+}
+
+i {
+  font-size: 1.3rem;
+  margin: 1rem 0.5rem;
+  cursor: pointer;
+}
