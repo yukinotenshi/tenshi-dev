@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 
 function AboutPage() {
   return (
-    <div className="page full-height container">
+    <div className="page full-height container column">
       <div className="header container">
         <Link to="/menu" className="actual header box container">
           Back

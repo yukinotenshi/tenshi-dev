@@ -9,9 +9,9 @@ function MenuPage() {
       <div className="menu-row">
         <div className="menu-item filler">
         </div>
-        <div className="menu-item">
+        <Link to="/works" className="menu-item">
           <p>Works</p>
-        </div>
+        </Link>
         <div className="menu-item filler">
         </div>
       </div>
