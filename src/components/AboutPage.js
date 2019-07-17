@@ -7,17 +7,17 @@ function AboutPage() {
   return (
     <div className="page full-height container column">
       <div className="header container">
-        <Link to="/menu" className="actual header box container">
+        <Link to="/menu" className="actual header box container show-top-animate">
           Back
         </Link>
-        <div className="header-filler">
+        <div className="header-filler show-right-animate">
           <p>About</p>
         </div>
       </div>
       <div className="content container">
         <div className="content-filler">
         </div>
-        <div className="actual content box">
+        <div className="actual content box show-bottom-animate">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh sit amet commodo nulla. Imperdiet massa tincidunt nunc pulvinar sapien. Sit amet commodo nulla facilisi nullam vehicula. Vulputate ut pharetra sit amet aliquam. Lorem ipsum dolor sit amet consectetur adipiscing. Velit sed ullamcorper morbi tincidunt ornare massa eget egestas. Enim facilisis gravida neque convallis a cras semper auctor neque. Eu feugiat pretium nibh ipsum consequat nisl. Feugiat sed lectus vestibulum mattis ullamcorper.
           </p>

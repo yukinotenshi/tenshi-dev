@@ -12,7 +12,7 @@ class HomePage extends React.Component {
   }
   animateLogo() {
     this.setState({logoClicked: !this.state.logoClicked});
-    setTimeout(() => this.props.history.push("/menu"), 500);
+    setTimeout(() => this.props.history.push("/menu"), 0);
   }
   render() {
     let logoClass = "box logo container";
@@ -23,7 +23,7 @@ class HomePage extends React.Component {
     }
 
     return (
-      <div>
+      <div className="show-top-animate">
         <div className={logoClass} onClick={() => this.animateLogo()}>
           TENSHI
         </div>

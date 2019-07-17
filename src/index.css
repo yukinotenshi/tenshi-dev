@@ -52,3 +52,76 @@ a:visited {
   background: #0c6291;
   color: #fcfafa;
 }
+
+@keyframes show-top {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes show-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes show-right {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes show-bottom {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.show-top-animate {
+  animation-name: show-top;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(.27,.57,.28,.66);
+}
+
+
+.show-bottom-animate {
+  animation: show-bottom;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(.27,.57,.28,.66);
+}
+
+
+.show-right-animate {
+  animation-name: show-right;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(.27,.57,.28,.66);
+}
+
+.show-left-animate {
+  animation-name: show-left;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(.27,.57,.28,.66);
+}
+
+.box, .menu-item, .contact, .logo {
+  -webkit-transition: all 0.5s;
+}

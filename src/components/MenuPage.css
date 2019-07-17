@@ -16,11 +16,10 @@
     height: 100%;
     cursor: pointer;
     font-weight: 600;
-    -webkit-transition: all 0.5s;
 }
 
 .menu-item.filler {
-    border: 0px solid rgba(0,0,0,0);
+    border: none;
     z-index: -999;
 }
 

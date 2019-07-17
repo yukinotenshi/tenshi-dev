@@ -8,17 +8,17 @@ function ContactPage() {
   return (
     <div className="page full-height container column">
       <div className="header container">
-        <Link to="/menu" className="actual header box container">
+        <Link to="/menu" className="actual header box container show-left-animate">
           Back
         </Link>
-        <div className="header-filler">
+        <div className="header-filler show-right-animate">
           <p>Contact</p>
         </div>
       </div>
       <div className="content container">
         <div className="content-filler">
         </div>
-        <div className="actual content box">
+        <div className="actual content box show-bottom-animate">
           <div>
             <label>Name</label>
             <input type="text" />
