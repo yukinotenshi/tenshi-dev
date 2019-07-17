@@ -47,3 +47,8 @@ a:visited {
 ::-webkit-scrollbar-thumb {
   background: #fcfafa;
 }
+
+::selection {
+  background: #0c6291;
+  color: #fcfafa;
+}

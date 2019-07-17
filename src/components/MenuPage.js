@@ -22,9 +22,9 @@ function MenuPage() {
         <div className="menu-item active">
           <p>Menu</p>
         </div>
-        <div className="menu-item">
+        <Link to="/contact" className="menu-item">
           <p>Contact</p>
-        </div>
+        </Link>
       </div>
       <div className="menu-row">
         <div className="menu-item filler">

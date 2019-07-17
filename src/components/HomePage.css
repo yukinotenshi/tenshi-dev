@@ -19,12 +19,21 @@
 .box {
   border: 1px solid #fcfafa;
   cursor: pointer;
+  -webkit-transition: all 0.5s;
 }
 
 .logo {
   padding: 2rem;
   font-size: 4rem;
   font-weight: 300;
+}
+
+.contact {
+  -webkit-transition: all 0.5s;
+}
+
+.clicked {
+  opacity: 0;
 }
 
 .box:hover {

@@ -28,10 +28,10 @@ function WorksPage() {
       <div className="navigation container">
         <div className="content-filler"></div>
         <div className="nav-items container">
-          <div className="nav-item box">
+          <div className="nav-item prev box">
             &lt;&lt;
           </div>
-          <div className="nav-item box">
+          <div className="nav-item next box">
             &gt;&gt;
           </div>
         </div>

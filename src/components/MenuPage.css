@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     flex: 1 0;
-    width: 100%;
+    width: calc(100% - 2px);
 }
 
 .menu-item {
@@ -16,10 +16,11 @@
     height: 100%;
     cursor: pointer;
     font-weight: 600;
+    -webkit-transition: all 0.5s;
 }
 
 .menu-item.filler {
-    border: none;
+    border: 0px solid rgba(0,0,0,0);
     z-index: -999;
 }
 
